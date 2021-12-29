@@ -4,7 +4,7 @@ PoC Keycloak Custom View Themes
 ## scaffolding project
 We are going to create the keycloak theme scaffolded called **poc** from keycloak **base theme**
 
-The folders structure is:
+The folders and files structure must be like this where poc subfolfer it's the custom name for out theme:
 
 
 ```shell
@@ -22,9 +22,8 @@ themes
 ```
 
 ## Create the custom theme
-From keycloak base theme we are going to creta our base login theme
-
-inside project execute thid command to copy the base theme from  keycloak container
+Now we are going to create the base login template from the base login keycloak theme.
+Inside project folder execute this docker command:
 
 ```shell
 docker cp keycloak-11:/opt/jboss/keycloak/themes/base/login/login.ftl ./themes/poc/login/login.ftl
@@ -32,7 +31,7 @@ docker cp keycloak-11:/opt/jboss/keycloak/themes/base/login/login.ftl ./themes/p
 ```
 
 ## Coding
-Now we must coding the login view throw the freemaker login.ftl file and add new styles for it and add theme properties to deploy this theme in keycloak.
+Now we must coding the login freemaker template from login.ftl file and add new styles for it and add configure the theme properties to be deployed
 
 The final
 
