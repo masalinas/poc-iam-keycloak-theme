@@ -68,7 +68,9 @@ http://localhost:8080
 ```
 
 - Create a new realm called poc.
-- Set the new login theme called poc in this new realm.
+- Set a new HTML Display name like Welcome PoC.
+- Activate Forgot password and Remeber Me flags.
+- Set the new login theme called poc from the Themes Tab Ralm Settings.
 
 ![PoC Theme Configuration](captures/Realm_Theme_Configure.png "PoC Theme Configuration")
 
@@ -78,4 +80,10 @@ http://localhost:8080
 http://localhost:8080/auth/realms/poc/account
 ```
 
-![PoC Login View](captures/pop_realm.png "PoC Login View")
+Login View 
+
+![PoC Login View](captures/Poc_Login_View.png "PoC Login View")
+
+Forgotpassword View 
+
+![PoC Forgot Password View](captures/Poc_Forgot_Password_View.png "PoC Forgot Password View")
