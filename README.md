@@ -72,7 +72,7 @@ http://localhost:8080
 
 ![PoC Theme Configuration](captures/Realm_Theme_Configure.png "PoC Theme Configuration")
 
-## Access to the new real login
+## Access to the new realm login view
 
 ```shell
 http://localhost:8080/auth/realms/poc/account
