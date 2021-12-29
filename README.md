@@ -67,7 +67,7 @@ Access to master realm
 http://localhost:8080
 ```
 
-- Create a new reaml called poc.
+- Create a new realm called poc.
 - Set the new login theme called poc in this new realm.
 
 ![PoC Theme Configuration](captures/Realm_Theme_Configure.png "PoC Theme Configuration")
