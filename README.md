@@ -90,4 +90,4 @@ Forgotpassword View
 
 ## Some links 
 
-To check official keycloak Themes go to [Keycloak Themes](https://www.keycloak.org/docs/latest/server_development/#_themes)
+To check official keycloak Themes documentation go to [Keycloak Themes](https://www.keycloak.org/docs/latest/server_development/#_themes)
