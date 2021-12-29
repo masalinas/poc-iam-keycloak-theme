@@ -1,5 +1,5 @@
 # Description
-PoC Keycloak Authentication Themes
+PoC Keycloak Custom View Themes
 
 ## scaffolding project
 We are going to create the keycloak theme scaffolding for a theme called **poc**
