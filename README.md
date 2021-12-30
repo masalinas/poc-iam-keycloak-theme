@@ -23,7 +23,7 @@ themes
 
 ## Create the custom theme
 Now we are going to create the base login template from the base login keycloak theme.
-Inside project folder execute this docker command:
+Inside project folder execute this docker command .Os course you must run a keycloak container previously:
 
 ```shell
 docker cp keycloak-11:/opt/jboss/keycloak/themes/base/login/login.ftl ./themes/poc/login/login.ftl
@@ -88,9 +88,21 @@ Login View
 
 ![PoC Login View](captures/Poc_Login_View.png "PoC Login View")
 
-Forgotpassword View 
+Forgot your password View 
 
 ![PoC Forgot Password View](captures/Poc_Forgot_Password_View.png "PoC Forgot Password View")
+
+Reset your password View: In that case we must to configure the smtp server from admin account to send email confirmation
+
+![Keycloak SMTP Configuration](captures/SMTP_keycloak.png "Keycloak SMTP Configuration")
+
+![Keycloak Email Confirmation](captures/Keycloak_email_confirmation.png "Keycloak Email Confirmation")
+
+![PoC Reset your Password View](captures/PoC_Reset_Your_Password.png "PoC Reset your Password View")
+
+
+> To use Google SMTP server you must create an **application password** in the sender account to be used in keycloak. To read more about it go to [Google Documentation](https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637764503853595250-3353976356&rd=1)
+
 
 ## Some links 
 
