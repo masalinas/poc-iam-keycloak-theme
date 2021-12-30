@@ -23,6 +23,9 @@ themes
 
 ## Deploy keycloak container
 
+While creating a theme it’s a good idea to disable caching as this makes it possible to edit theme resources directly from the themes directory without restarting Keycloak. To do this edit standalone.xml. For theme set staticMaxAge to -1 and both cacheTemplates and cacheThemes to false. This configiration will be on the Dockerfile keycloak file.
+
+
 ```shell
 docker-compose up
 ```
@@ -35,10 +38,6 @@ Inside project folder execute this docker command .Os course you must run a keyc
 docker cp keycloak-11:/opt/jboss/keycloak/themes/base/login/login.ftl ./themes/poc/login/login.ftl
 
 ```
-
-## Some development configuration
-
-While creating a theme it’s a good idea to disable caching as this makes it possible to edit theme resources directly from the themes directory without restarting Keycloak. To do this edit standalone.xml. For theme set staticMaxAge to -1 and both cacheTemplates and cacheThemes to false. This configiration will be on the Dockerfile keycloak file.
 
 ## Coding
 Now we must coding the login freemaker template from login.ftl file and add new styles for it and add configure the theme properties to be deployed
@@ -65,7 +64,7 @@ themes
 
 ## Configure keycloak with the new theme
 
-Access to master realm
+Access to master realm and configure the new theme
 
 ```shell
 http://localhost:8080
