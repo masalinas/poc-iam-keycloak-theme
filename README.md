@@ -21,6 +21,12 @@ themes
         theme.properties
 ```
 
+## Deploy keycloak container
+
+```shell
+docker-compose up
+```
+
 ## Create the custom theme
 Now we are going to create the base login template from the base login keycloak theme.
 Inside project folder execute this docker command .Os course you must run a keycloak container previously:
@@ -55,12 +61,6 @@ themes
         theme.properties
         login.ftl    
 
-```
-
-## Deploy keycloak container
-
-```shell
-docker-compose up
 ```
 
 ## Configure keycloak with the new theme
