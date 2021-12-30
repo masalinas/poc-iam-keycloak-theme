@@ -104,6 +104,8 @@ Reset your password View: In that case we must to configure the smtp server from
 > To use Google SMTP server you must create an **application password** in the sender account to be used in keycloak. To read more about it go to [Google Documentation](https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637764503853595250-3353976356&rd=1)
 
 
+![Google Application Password](captures/google_password_application.png "Google Application Password")
+
 ## Some links 
 
 To check official keycloak Themes documentation go to [Keycloak Themes](https://www.keycloak.org/docs/latest/server_development/#_themes)
