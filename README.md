@@ -92,7 +92,9 @@ Forgot your password View
 
 ![PoC Forgot Password View](captures/Poc_Forgot_Password_View.png "PoC Forgot Password View")
 
-Reset your password View: In that case we must to configure the smtp server from admin account to send email confirmation
+Reset your password View
+
+> In that case we must to configure the smtp server from admin account to send email confirmation
 
 ![Keycloak SMTP Configuration](captures/SMTP_keycloak.png "Keycloak SMTP Configuration")
 
