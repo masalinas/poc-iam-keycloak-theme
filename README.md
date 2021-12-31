@@ -100,13 +100,13 @@ Reset your password View
 
 ![Keycloak Email Confirmation](captures/Keycloak_email_confirmation.png "Keycloak Email Confirmation")
 
-![PoC Reset your Password View](captures/PoC_Reset_Your_Password.png "PoC Reset your Password View")
+![Poc Reset your Password View](captures/PoC_Reset_Your_Password.png "PoC Reset your Password View")
 
 
 > To use Google SMTP server you must create an **application password** in the sender account to be used in keycloak. To read more about it go to [Google Documentation](https://support.google.com/accounts/answer/185833?p=InvalidSecondFactor&visit_id=637764503853595250-3353976356&rd=1)
 
 
-![Google Application Password](captures/google_password_application.png "Google Application Password")
+![Google Application Password](captures/Google_Password_Application.png "Google Application Password")
 
 ## Some links 
 
