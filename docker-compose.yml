@@ -5,9 +5,12 @@ services:
     build: .
     container_name: keycloak-11-theme
     environment:
+      KEYCLOAK_IMPORT: /opt/jboss/keycloak/imports/realm-export.json -Dkeycloak.profile.feature.upload_scripts=enabled
       KEYCLOAK_USER: admin
       KEYCLOAK_PASSWORD: admin
     ports:        
       - 8080:8080
     volumes: 
-      - ./themes/poc:/opt/jboss/keycloak/themes/poc 
+      - ./exports:/opt/jboss/keycloak/imports
+      - ./themes/poc:/opt/jboss/keycloak/themes/poc
+      
